@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1748B943267BBD7B00431DEE /* MusicStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748B941267BBD7B00431DEE /* MusicStyleCell.swift */; };
+		1748B944267BBD7B00431DEE /* MusicStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1748B942267BBD7B00431DEE /* MusicStyleCell.xib */; };
+		1748B950267C94E100431DEE /* ArtStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748B94F267C94E100431DEE /* ArtStyleCell.swift */; };
+		1748B954267C951100431DEE /* ArtStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1748B953267C951100431DEE /* ArtStyleCell.xib */; };
+		1748B959267CA06100431DEE /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748B958267CA06100431DEE /* Post.m */; };
+		1748B95D267CA0C700431DEE /* PostFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748B95C267CA0C700431DEE /* PostFrame.m */; };
+		1748B961267CA35400431DEE /* CommunityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748B960267CA35400431DEE /* CommunityTableViewController.m */; };
+		1748B965267CA3BD00431DEE /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748B964267CA3BD00431DEE /* PostCell.m */; };
+		1748B968267CA91F00431DEE /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1748B967267CA91F00431DEE /* statuses.plist */; };
+		1773E72C26750F0600431DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773E72B26750F0600431DEE /* AppDelegate.swift */; };
+		1773E72E26750F0600431DEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773E72D26750F0600431DEE /* SceneDelegate.swift */; };
+		1773E73326750F0600431DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773E73126750F0600431DEE /* Main.storyboard */; };
+		1773E73526750F0700431DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1773E73426750F0700431DEE /* Assets.xcassets */; };
+		1773E73826750F0700431DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1773E73626750F0700431DEE /* LaunchScreen.storyboard */; };
+		1773E767267606B100431DEE /* ArtGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773E766267606B100431DEE /* ArtGalleryViewController.swift */; };
+		1773E76A267606C800431DEE /* MusicHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773E769267606C800431DEE /* MusicHallViewController.swift */; };
+		1773E76D26761B8400431DEE /* styles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1773E76C26761B8400431DEE /* styles.plist */; };
+		1773E771267737A000431DEE /* ArtStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773E770267737A000431DEE /* ArtStyle.swift */; };
+		1773E77626774ABF00431DEE /* MusicStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773E77526774ABF00431DEE /* MusicStyle.swift */; };
+		179DABE326B00D5400431DEE /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179DABE226B00D5400431DEE /* NewPostViewController.m */; };
+		3325D038368B85AE4374B48D /* Akaneya Himika Yukinohana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3325D2BBD1458818CDBB0C5C /* Akaneya Himika Yukinohana.mp3 */; };
+		3325D4138FD30BD9D0D7D077 /* UIImage+Base64Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325D77C7F4439BA5149B154 /* UIImage+Base64Encoding.m */; };
+		3325D8548A772EAF724C12E3 /* LoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325D0A91B9B13E3C3337E29 /* LoginResponse.m */; };
+		3325DBB510DEE580238A93FD /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325D939DB84A7F0B0959B2A /* NSString+Random.m */; };
+		3325DD04B9EF0CB169C69885 /* NSString+Sandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3325D69DFF8AFF58D624AC4B /* NSString+Sandbox.m */; };
+		3325DF1AFDB27D85BA7367A7 /* Yukinohana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3325D4FF3B872F7DC6D4E955 /* Yukinohana.mp3 */; };
+		3325DF254A01972225694F40 /* Akaneya Himika.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3325D96803D1998C4B765ED8 /* Akaneya Himika.mp3 */; };
+		3EE8B7F03F41F0F3482604EA /* Pods_Art_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F76D03658FDACC9DCE1B2B8 /* Pods_Art_Lab.framework */; };
+		6396944926B3EC0500F2DC85 /* MusicStyleTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6396944826B3EC0500F2DC85 /* MusicStyleTransferViewController.m */; };
+		6396944B26B3ED0500F2DC85 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6396944A26B3ED0500F2DC85 /* AVFoundation.framework */; };
+		63A5F27826B7CA84006C7055 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F27726B7CA84006C7055 /* UIColor+Hex.m */; };
+		63A5F27E26B80134006C7055 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A5F27D26B80134006C7055 /* PersonalViewController.swift */; };
+		63D1D3322679BC6100935B37 /* ImageStyleTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D3312679BC6100935B37 /* ImageStyleTransferViewController.swift */; };
+		63D1D3342679EE5F00935B37 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D3332679EE5F00935B37 /* LabViewController.swift */; };
+		63F1B30626B28EBF0032E318 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F1B30526B28EBF0032E318 /* NSString+Hash.m */; };
+		63F1B30826B2BA3A0032E318 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1B30726B2BA3A0032E318 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1748B941267BBD7B00431DEE /* MusicStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStyleCell.swift; sourceTree = "<group>"; };
+		1748B942267BBD7B00431DEE /* MusicStyleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicStyleCell.xib; sourceTree = "<group>"; };
+		1748B94F267C94E100431DEE /* ArtStyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyleCell.swift; sourceTree = "<group>"; };
+		1748B953267C951100431DEE /* ArtStyleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtStyleCell.xib; sourceTree = "<group>"; };
+		1748B957267CA06100431DEE /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		1748B958267CA06100431DEE /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		1748B95B267CA0C700431DEE /* PostFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostFrame.h; sourceTree = "<group>"; };
+		1748B95C267CA0C700431DEE /* PostFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostFrame.m; sourceTree = "<group>"; };
+		1748B95F267CA35400431DEE /* CommunityTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunityTableViewController.h; sourceTree = "<group>"; };
+		1748B960267CA35400431DEE /* CommunityTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityTableViewController.m; sourceTree = "<group>"; };
+		1748B963267CA3BD00431DEE /* PostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		1748B964267CA3BD00431DEE /* PostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		1748B967267CA91F00431DEE /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		1773E72826750F0600431DEE /* Art Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1773E72B26750F0600431DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1773E72D26750F0600431DEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1773E73226750F0600431DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1773E73426750F0700431DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1773E73726750F0700431DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1773E73926750F0700431DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1773E766267606B100431DEE /* ArtGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtGalleryViewController.swift; sourceTree = "<group>"; };
+		1773E769267606C800431DEE /* MusicHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHallViewController.swift; sourceTree = "<group>"; };
+		1773E76C26761B8400431DEE /* styles.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = styles.plist; sourceTree = "<group>"; };
+		1773E770267737A000431DEE /* ArtStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStyle.swift; sourceTree = "<group>"; };
+		1773E77526774ABF00431DEE /* MusicStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStyle.swift; sourceTree = "<group>"; };
+		1773E78C2677BF6700431DEE /* Art Lab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Art Lab-Bridging-Header.h"; sourceTree = "<group>"; };
+		179DABE126B00D5400431DEE /* NewPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
+		179DABE226B00D5400431DEE /* NewPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
+		3325D0A91B9B13E3C3337E29 /* LoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResponse.m; sourceTree = "<group>"; };
+		3325D2BBD1458818CDBB0C5C /* Akaneya Himika Yukinohana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Akaneya Himika Yukinohana.mp3"; sourceTree = "<group>"; };
+		3325D477638A15CD50AE8836 /* NSString+Sandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sandbox.h"; sourceTree = "<group>"; };
+		3325D4FF3B872F7DC6D4E955 /* Yukinohana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yukinohana.mp3; sourceTree = "<group>"; };
+		3325D539219157779E56FC3A /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
+		3325D69DFF8AFF58D624AC4B /* NSString+Sandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sandbox.m"; sourceTree = "<group>"; };
+		3325D77C7F4439BA5149B154 /* UIImage+Base64Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Base64Encoding.m"; sourceTree = "<group>"; };
+		3325D92A27CA67A942404509 /* UIImage+Base64Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Base64Encoding.h"; sourceTree = "<group>"; };
+		3325D939DB84A7F0B0959B2A /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
+		3325D96803D1998C4B765ED8 /* Akaneya Himika.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Akaneya Himika.mp3"; sourceTree = "<group>"; };
+		3325DF05E6815B068B13A67F /* LoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResponse.h; sourceTree = "<group>"; };
+		4F76D03658FDACC9DCE1B2B8 /* Pods_Art_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Art_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6396944726B3EC0500F2DC85 /* MusicStyleTransferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicStyleTransferViewController.h; sourceTree = "<group>"; };
+		6396944826B3EC0500F2DC85 /* MusicStyleTransferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicStyleTransferViewController.m; sourceTree = "<group>"; };
+		6396944A26B3ED0500F2DC85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63A5F27626B7CA84006C7055 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		63A5F27726B7CA84006C7055 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		63A5F27D26B80134006C7055 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		63D1D3312679BC6100935B37 /* ImageStyleTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyleTransferViewController.swift; sourceTree = "<group>"; };
+		63D1D3332679EE5F00935B37 /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
+		63F1B30426B28EBF0032E318 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		63F1B30526B28EBF0032E318 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		63F1B30726B2BA3A0032E318 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A6F6E93A3D0AC24E4C6CE945 /* Pods-Art Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Art Lab.release.xcconfig"; path = "Target Support Files/Pods-Art Lab/Pods-Art Lab.release.xcconfig"; sourceTree = "<group>"; };
+		FEFCE722205ED55FDBECCB9E /* Pods-Art Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Art Lab.debug.xcconfig"; path = "Target Support Files/Pods-Art Lab/Pods-Art Lab.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1773E72526750F0600431DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6396944B26B3ED0500F2DC85 /* AVFoundation.framework in Frameworks */,
+				3EE8B7F03F41F0F3482604EA /* Pods_Art_Lab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1748B96A267CB87400431DEE /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		1748B96B267CB88800431DEE /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				1748B942267BBD7B00431DEE /* MusicStyleCell.xib */,
+				1748B941267BBD7B00431DEE /* MusicStyleCell.swift */,
+				1748B953267C951100431DEE /* ArtStyleCell.xib */,
+				1748B94F267C94E100431DEE /* ArtStyleCell.swift */,
+			);
+			name = Lab;
+			sourceTree = "<group>";
+		};
+		1748B96C267CB8AE00431DEE /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				1748B963267CA3BD00431DEE /* PostCell.h */,
+				1748B964267CA3BD00431DEE /* PostCell.m */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		1748B96D267CB8E200431DEE /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				1773E770267737A000431DEE /* ArtStyle.swift */,
+				1773E77526774ABF00431DEE /* MusicStyle.swift */,
+			);
+			name = Lab;
+			sourceTree = "<group>";
+		};
+		1748B96E267CB8E900431DEE /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				1748B957267CA06100431DEE /* Post.h */,
+				1748B958267CA06100431DEE /* Post.m */,
+				1748B95B267CA0C700431DEE /* PostFrame.h */,
+				1748B95C267CA0C700431DEE /* PostFrame.m */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		1773E71F26750F0600431DEE = {
+			isa = PBXGroup;
+			children = (
+				1773E72A26750F0600431DEE /* Art Lab */,
+				1773E72926750F0600431DEE /* Products */,
+				B12441FA0006F76C5DAA4DD5 /* Pods */,
+				69014B5F7167144AAE08A6A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1773E72926750F0600431DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1773E72826750F0600431DEE /* Art Lab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1773E72A26750F0600431DEE /* Art Lab */ = {
+			isa = PBXGroup;
+			children = (
+				1773E7432675197100431DEE /* Models */,
+				1773E7412675195600431DEE /* Views */,
+				1773E7442675197900431DEE /* Controllers */,
+				1773E7462675198D00431DEE /* Supporting Files */,
+				1773E747267519BF00431DEE /* Others */,
+				63F1B2FF26B1BA8A0032E318 /* Category */,
+			);
+			path = "Art Lab";
+			sourceTree = "<group>";
+		};
+		1773E7412675195600431DEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1773E73626750F0700431DEE /* LaunchScreen.storyboard */,
+				1773E73126750F0600431DEE /* Main.storyboard */,
+				1748B96B267CB88800431DEE /* Lab */,
+				1748B96C267CB8AE00431DEE /* Community */,
+				1748B96A267CB87400431DEE /* Personal */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1773E7432675197100431DEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63F1B30B26B2C5DB0032E318 /* Personal */,
+				1748B96D267CB8E200431DEE /* Lab */,
+				1748B96E267CB8E900431DEE /* Community */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1773E7442675197900431DEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63D1D3352679EE6500935B37 /* Lab */,
+				63D1D3372679F1BA00935B37 /* Personal */,
+				63D1D3382679F1D100935B37 /* Community */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1773E7462675198D00431DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6396944626B3E84000F2DC85 /* Image and Audio Resources */,
+				1773E73426750F0700431DEE /* Assets.xcassets */,
+				1773E73926750F0700431DEE /* Info.plist */,
+				1773E76C26761B8400431DEE /* styles.plist */,
+				1748B967267CA91F00431DEE /* statuses.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1773E747267519BF00431DEE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1773E78C2677BF6700431DEE /* Art Lab-Bridging-Header.h */,
+				1773E72B26750F0600431DEE /* AppDelegate.swift */,
+				1773E72D26750F0600431DEE /* SceneDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		6396944626B3E84000F2DC85 /* Image and Audio Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3325D4FF3B872F7DC6D4E955 /* Yukinohana.mp3 */,
+				3325D96803D1998C4B765ED8 /* Akaneya Himika.mp3 */,
+				3325D2BBD1458818CDBB0C5C /* Akaneya Himika Yukinohana.mp3 */,
+			);
+			name = "Image and Audio Resources";
+			sourceTree = "<group>";
+		};
+		63D1D3352679EE6500935B37 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				63D1D3332679EE5F00935B37 /* LabViewController.swift */,
+				63D1D3392679F21A00935B37 /* ArtGallery */,
+				63D1D33A2679F22600935B37 /* Music Hall */,
+			);
+			name = Lab;
+			sourceTree = "<group>";
+		};
+		63D1D3372679F1BA00935B37 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				63F1B30726B2BA3A0032E318 /* LoginViewController.swift */,
+				63A5F27D26B80134006C7055 /* PersonalViewController.swift */,
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		63D1D3382679F1D100935B37 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				1748B95F267CA35400431DEE /* CommunityTableViewController.h */,
+				1748B960267CA35400431DEE /* CommunityTableViewController.m */,
+				179DABE126B00D5400431DEE /* NewPostViewController.h */,
+				179DABE226B00D5400431DEE /* NewPostViewController.m */,
+			);
+			name = Community;
+			sourceTree = "<group>";
+		};
+		63D1D3392679F21A00935B37 /* ArtGallery */ = {
+			isa = PBXGroup;
+			children = (
+				1773E766267606B100431DEE /* ArtGalleryViewController.swift */,
+				63D1D3312679BC6100935B37 /* ImageStyleTransferViewController.swift */,
+			);
+			name = ArtGallery;
+			sourceTree = "<group>";
+		};
+		63D1D33A2679F22600935B37 /* Music Hall */ = {
+			isa = PBXGroup;
+			children = (
+				1773E769267606C800431DEE /* MusicHallViewController.swift */,
+				6396944726B3EC0500F2DC85 /* MusicStyleTransferViewController.h */,
+				6396944826B3EC0500F2DC85 /* MusicStyleTransferViewController.m */,
+			);
+			name = "Music Hall";
+			sourceTree = "<group>";
+		};
+		63F1B2FF26B1BA8A0032E318 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3325D939DB84A7F0B0959B2A /* NSString+Random.m */,
+				3325D539219157779E56FC3A /* NSString+Random.h */,
+				3325D69DFF8AFF58D624AC4B /* NSString+Sandbox.m */,
+				3325D477638A15CD50AE8836 /* NSString+Sandbox.h */,
+				63F1B30426B28EBF0032E318 /* NSString+Hash.h */,
+				63F1B30526B28EBF0032E318 /* NSString+Hash.m */,
+				3325D92A27CA67A942404509 /* UIImage+Base64Encoding.h */,
+				3325D77C7F4439BA5149B154 /* UIImage+Base64Encoding.m */,
+				63A5F27626B7CA84006C7055 /* UIColor+Hex.h */,
+				63A5F27726B7CA84006C7055 /* UIColor+Hex.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		63F1B30B26B2C5DB0032E318 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				3325DF05E6815B068B13A67F /* LoginResponse.h */,
+				3325D0A91B9B13E3C3337E29 /* LoginResponse.m */,
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		69014B5F7167144AAE08A6A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6396944A26B3ED0500F2DC85 /* AVFoundation.framework */,
+				4F76D03658FDACC9DCE1B2B8 /* Pods_Art_Lab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B12441FA0006F76C5DAA4DD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEFCE722205ED55FDBECCB9E /* Pods-Art Lab.debug.xcconfig */,
+				A6F6E93A3D0AC24E4C6CE945 /* Pods-Art Lab.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1773E72726750F0600431DEE /* Art Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1773E73C26750F0700431DEE /* Build configuration list for PBXNativeTarget "Art Lab" */;
+			buildPhases = (
+				E15B16EA2A5E9DCA693D8A62 /* [CP] Check Pods Manifest.lock */,
+				1773E72426750F0600431DEE /* Sources */,
+				1773E72526750F0600431DEE /* Frameworks */,
+				1773E72626750F0600431DEE /* Resources */,
+				E02A0BA0A5B092E352C1D3C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Lab";
+			productName = "Art Lab";
+			productReference = 1773E72826750F0600431DEE /* Art Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1773E72026750F0600431DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1773E72726750F0600431DEE = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 1773E72326750F0600431DEE /* Build configuration list for PBXProject "Art Lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1773E71F26750F0600431DEE;
+			productRefGroup = 1773E72926750F0600431DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1773E72726750F0600431DEE /* Art Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1773E72626750F0600431DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1748B944267BBD7B00431DEE /* MusicStyleCell.xib in Resources */,
+				1748B954267C951100431DEE /* ArtStyleCell.xib in Resources */,
+				1773E73826750F0700431DEE /* LaunchScreen.storyboard in Resources */,
+				1773E76D26761B8400431DEE /* styles.plist in Resources */,
+				1773E73526750F0700431DEE /* Assets.xcassets in Resources */,
+				1773E73326750F0600431DEE /* Main.storyboard in Resources */,
+				1748B968267CA91F00431DEE /* statuses.plist in Resources */,
+				3325DF1AFDB27D85BA7367A7 /* Yukinohana.mp3 in Resources */,
+				3325DF254A01972225694F40 /* Akaneya Himika.mp3 in Resources */,
+				3325D038368B85AE4374B48D /* Akaneya Himika Yukinohana.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E02A0BA0A5B092E352C1D3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Art Lab/Pods-Art Lab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Art Lab/Pods-Art Lab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Art Lab/Pods-Art Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15B16EA2A5E9DCA693D8A62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Art Lab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1773E72426750F0600431DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F1B30826B2BA3A0032E318 /* LoginViewController.swift in Sources */,
+				63D1D3342679EE5F00935B37 /* LabViewController.swift in Sources */,
+				1748B943267BBD7B00431DEE /* MusicStyleCell.swift in Sources */,
+				1773E77626774ABF00431DEE /* MusicStyle.swift in Sources */,
+				1773E76A267606C800431DEE /* MusicHallViewController.swift in Sources */,
+				1748B961267CA35400431DEE /* CommunityTableViewController.m in Sources */,
+				6396944926B3EC0500F2DC85 /* MusicStyleTransferViewController.m in Sources */,
+				1748B95D267CA0C700431DEE /* PostFrame.m in Sources */,
+				63F1B30626B28EBF0032E318 /* NSString+Hash.m in Sources */,
+				1773E767267606B100431DEE /* ArtGalleryViewController.swift in Sources */,
+				179DABE326B00D5400431DEE /* NewPostViewController.m in Sources */,
+				1773E72C26750F0600431DEE /* AppDelegate.swift in Sources */,
+				63A5F27826B7CA84006C7055 /* UIColor+Hex.m in Sources */,
+				1773E771267737A000431DEE /* ArtStyle.swift in Sources */,
+				1748B965267CA3BD00431DEE /* PostCell.m in Sources */,
+				63A5F27E26B80134006C7055 /* PersonalViewController.swift in Sources */,
+				63D1D3322679BC6100935B37 /* ImageStyleTransferViewController.swift in Sources */,
+				1748B950267C94E100431DEE /* ArtStyleCell.swift in Sources */,
+				1773E72E26750F0600431DEE /* SceneDelegate.swift in Sources */,
+				1748B959267CA06100431DEE /* Post.m in Sources */,
+				3325DBB510DEE580238A93FD /* NSString+Random.m in Sources */,
+				3325DD04B9EF0CB169C69885 /* NSString+Sandbox.m in Sources */,
+				3325D4138FD30BD9D0D7D077 /* UIImage+Base64Encoding.m in Sources */,
+				3325D8548A772EAF724C12E3 /* LoginResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1773E73126750F0600431DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1773E73226750F0600431DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1773E73626750F0700431DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1773E73726750F0700431DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1773E73A26750F0700431DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1773E73B26750F0700431DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1773E73D26750F0700431DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFCE722205ED55FDBECCB9E /* Pods-Art Lab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A525GA3USA;
+				INFOPLIST_FILE = "Art Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Art-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Art Lab/Art Lab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1773E73E26750F0700431DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F6E93A3D0AC24E4C6CE945 /* Pods-Art Lab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A525GA3USA;
+				INFOPLIST_FILE = "Art Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Art-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Art Lab/Art Lab-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1773E72326750F0600431DEE /* Build configuration list for PBXProject "Art Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1773E73A26750F0700431DEE /* Debug */,
+				1773E73B26750F0700431DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1773E73C26750F0700431DEE /* Build configuration list for PBXNativeTarget "Art Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1773E73D26750F0700431DEE /* Debug */,
+				1773E73E26750F0700431DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1773E72026750F0600431DEE /* Project object */;
+}

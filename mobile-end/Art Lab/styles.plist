@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Art</key>
+	<array>
+		<dict>
+			<key>artist</key>
+			<string>da Vinci</string>
+			<key>image</key>
+			<string>Mona Lisa</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>Monet</string>
+			<key>image</key>
+			<string>Impression, Soleil levant</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>Picasso</string>
+			<key>image</key>
+			<string>1971</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>van Gogh</string>
+			<key>image</key>
+			<string>Zonnebloemen</string>
+		</dict>
+	</array>
+	<key>Music</key>
+	<array>
+		<dict>
+			<key>artist</key>
+			<string>Michael Jackson</string>
+			<key>music</key>
+			<string>We Are The World</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>Jay Chou</string>
+			<key>music</key>
+			<string>Mojito</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>Hanazawa Kana</string>
+			<key>music</key>
+			<string>恋爱サーキュレーション</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>Teresa Teng</string>
+			<key>music</key>
+			<string>甜蜜蜜</string>
+		</dict>
+		<dict>
+			<key>artist</key>
+			<string>Nakajima Miyuki</string>
+			<key>music</key>
+			<string>銀の龍の背に乗って</string>
+		</dict>
+	</array>
+</dict>
+</plist>
